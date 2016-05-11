@@ -1,6 +1,6 @@
 
 target_dir  := ./commit-crawler
-target_file := $(target_dir)/commit.txt
+target_file := $(target_dir)/commits.txt
 dist_dir  := ./database
 dist_file := $(dist_dir)/commit-message
 
