@@ -1,0 +1,3 @@
+[submodule "commit-crawler"]
+  path = commit-crawler
+  url = git@github.com:minamijoyo/commit-crawler.git
