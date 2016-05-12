@@ -158,7 +158,7 @@ console.time("load file");
 var getDatabase = jQuery.get("database/commit-message")
   .done(function (data) {
     console.timeEnd("load file");
-    Array.prototype.push.apply(comments, data.split("\n"));
+    comments = data.split("\n");
   })
   .fail(function (e) {
     $('#react').text('error: ' + e.statusText);
